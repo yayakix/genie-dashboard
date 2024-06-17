@@ -26,18 +26,15 @@ function Dashboard() {
     return (
         <>
             {/* Banner */}
-            <div className='flex flex-col  mt-10 '>
-                <div className='flex flex-wrap gap-4 space-between	ml-48 pl-16'>
+            <div className='flex flex-col mt-10 '>
+                <div className='flex flex-wrap gap-2 space-between justify-center lg:ml-48 lg:pl-16'>
                     {content.map((item) => {
-                        return <div className=' border-2  border-violet-200 my-0 w-5/12 rounded-xl p-4 flex flex-row '>
-                            <div className='mr-4'>icon</div>
+                        return <div className=' border-2  border-violet-200 my-0 w-5/12 rounded-xl p-2 lg:p-4 flex flex-row '>
+                            <div className='mr-4 hidden md:block'>icon</div>
                             <div>
                                 <div>{item.title}</div>
-                                <p>{item.desc}</p>
+                                <p className='text-sm lg:text-md'>{item.desc}</p>
                             </div>
-
-
-
                         </div>
                     })}
                 </div>

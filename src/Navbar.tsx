@@ -16,11 +16,11 @@ function Navbar() {
                 </svg>
             </button> */}
 
-            <aside id="default-sidebar" className="fixed top-0 left-0 z-40 w-54 h-screen border-r-4 border-slate-200 " aria-label="Sidebar">
+            <aside id="default-sidebar" className="hidden lg:block fixed top-0 left-0 z-40 w-54 h-screen border-r-4 border-slate-200 " aria-label="Sidebar">
 
                 <div className="h-full px-3 py-4 overflow-y-auto flex flex-col ">
                     <div>
-                        <h1 className='text-5xl my-10' >LOGO</h1>
+                        <h1 className='text-5xl mb-10' >LOGO</h1>
 
                     </div>
                     <ul className="space-y-2 font-medium grow">
