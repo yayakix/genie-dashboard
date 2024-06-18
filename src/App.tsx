@@ -11,11 +11,11 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='overflow-hidden	'>
         <Header />
         <Navbar />
         <Banner />
-        <h4 className='text-center mb-10 text-purple-600 text-3xl mt-10 lg:ml-16 '>Icon Lets get started!</h4>
+        <h4 className='text-center mb-10 text-purple-600 text-3xl mt-10 lg:ml-44 '>Icon Lets get started!</h4>
         <Dashboard />
       </div>
 
