@@ -1,40 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Navbar from './Navbar'
-import Banner from './Banner'
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import ReorderIcon from '@mui/icons-material/Reorder';
 import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
 import PermDeviceInformationIcon from '@mui/icons-material/PermDeviceInformation';
 
 function Dashboard() {
-    // const content = [{
-    //     icon: '<AddCircleOutlineIcon/>',
-    //     title: "New Workspace",
-    //     desc: "For individuals or teams to collaborate, communicate, and carry out tasks efficiently. Create reports, dashboards or just get insights."
-    // }, {
-    //     icon: '',
-    //     title: "Add Data Sources",
-    //     desc: 'For individuals or teams to collaborate, communicate, and carry out tasks efficiently.'
-    // }, {
-    //     icon: '',
-    //     title: "Invite teammates",
-    //     desc: 'Share a link or add their email. You can invite them to Genie or add them to a specific workplace. You can add guest visitors by workspace. '
-    // }, {
-    //     icon: '',
-    //     title: "Learn about Genie",
-    //     desc: 'For individuals or teams to collaborate, communicate, and carry out tasks efficiently.'
-
-    // }]
 
     return (
         <>
             {/* Banner */}
             <div className='flex flex-col mt-10 '>
                 <div className='flex flex-wrap gap-2 space-between justify-center lg:ml-48 lg:pl-16'>
-                    {/* {content.map((item) => {
-                        return  */}
                     <div className=' border-2  border-violet-200 my-0 w-5/12 rounded-xl p-2 lg:p-4 flex flex-row lg:p-6 '>
                         <div className='mr-4 hidden md:block'>
                             <AddCircleOutlineIcon />
@@ -44,8 +19,6 @@ function Dashboard() {
                             <p className='text-sm lg:text-md'>For individuals or teams to collaborate, communicate, and carry out tasks efficiently. Create reports, dashboards or just get insights.</p>
                         </div>
                     </div>
-
-                    {/* })} */}
 
                     <div className=' border-2  border-violet-200 my-0 w-5/12 rounded-xl p-2 lg:p-4 flex flex-row lg:p-6 '>
                         <div className='mr-4 hidden md:block'>
@@ -75,7 +48,6 @@ function Dashboard() {
                         </div>
                     </div>
                 </div>
-
             </div>
             <span className='hidden md:block absolute right-4 bottom-4'>Need help? Book a <span className='text-purple-900'>demo.</span> </span>
 
