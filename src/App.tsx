@@ -1,26 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Navbar from './Navbar'
 import Banner from './Banner'
 import Dashboard from './Dashboard'
 import Header from './Header'
+import WavingHandIcon from '@mui/icons-material/WavingHand';
+
+const styles = {
+
+  largeIcon: {
+    width: 30,
+    height: 45,
+  },
+
+};
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
+      <div className='overflow-hidden	'>
         <Header />
         <Navbar />
         <Banner />
-        <h4 className='text-center mb-10 text-purple-600 text-3xl mt-10 lg:ml-16 '>Icon Lets get started!</h4>
+        <h4 className='text-center mb-10 text-purple-600 text-3xl mt-10 lg:ml-44 '>
+          <span className='mx-2 '>
+            <WavingHandIcon style={styles.largeIcon} />
+
+          </span>
+          Lets get started!</h4>
         <Dashboard />
       </div>
-
-
-
     </>
   )
 }
