@@ -3,9 +3,6 @@ import { useState } from "react";
 export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
-    const menu = document.body.querySelector('#mobilemenu')
-    console.log(menu)
-
 
     return (
         <nav
@@ -73,13 +70,22 @@ export default function Header() {
                     </button>
                     <ul className="flex flex-col items-center justify-between min-h-[250px]">
                         <li className="border-b border-gray-400 my-8 uppercase">
-                            <a href="/about">About</a>
+                            <a href="/">Home</a>
                         </li>
                         <li className="border-b border-gray-400 my-8 uppercase">
-                            <a href="/portfolio">Portfolio</a>
+                            <a href="/workspaces">Workspaces</a>
                         </li>
                         <li className="border-b border-gray-400 my-8 uppercase">
-                            <a href="/contact">Contact</a>
+                            <a href="/data">Ask your data</a>
+                        </li>
+                        <li className="border-b border-gray-400 my-8 uppercase">
+                            <a href="/datasources">Data Sources</a>
+                        </li>
+                        <li className="border-b border-gray-400 my-8 uppercase">
+                            <a href="/profile">Profile</a>
+                        </li>
+                        <li className="border-b border-gray-400 my-8 uppercase">
+                            <a href="/settings">Settings</a>
                         </li>
                     </ul>
                 </div>

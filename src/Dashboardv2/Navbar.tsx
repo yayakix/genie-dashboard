@@ -4,14 +4,14 @@ import FindInPageIcon from '@mui/icons-material/FindInPage';
 import StorageIcon from '@mui/icons-material/Storage';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import SettingsIcon from '@mui/icons-material/Settings';
-import logo from './assets/logo.svg'
+import logo from '../assets/logo.svg'
 
 function Navbar() {
 
     // const items = [{ id: 1, name: 'Home' }, { id: 2, name: 'Workspaces' }, { id: 3, name: 'Ask your data' }, { id: 4, name: 'Data Sources' }]
     return (
         <>
-            <aside id="default-sidebar" className="hidden lg:block fixed top-0 left-0 z-40 w-48 h-screen border-r-4 border-slate-200 " aria-label="Sidebar">
+            <aside id="default-sidebar" className="hidden lg:block fixed top-0 left-0 z-40 w-48 h-screen border-r-4 border-slate-100 " aria-label="Sidebar">
                 <div className="h-full px-3 py-4 overflow-y-auto flex flex-col">
                     <div className=' mb-10'>
                         <img src={logo} alt="" />
@@ -46,7 +46,7 @@ function Navbar() {
                     </ul>
                     <div className='text-black flex flex-1 list-none '>
                         <div className=' flex justify-end flex-col flex-1 w-full  '>
-                            <div className='border-t-4'></div>
+                            <div className='border-t-4 border-slate-100'></div>
                             <li className=''>
                                 <a href="#" className="flex items-center p-2 text-black rounded-lg hover:bg-purple-100 group">
                                     <PersonOutlineIcon />
