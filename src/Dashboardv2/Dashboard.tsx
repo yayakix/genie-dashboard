@@ -23,7 +23,7 @@ function Dashboard() {
                 <Header />
                 <Navbar />
                 <Banner />
-                <h4 className='text-center mb-10 text-purple-600 text-3xl mt-10 lg:ml-44 '>
+                <h4 className='text-center mb-4 text-purple-600 text-3xl mt-4 lg:ml-44 '>
                     <span className='mx-2 '>
                         <WavingHandIcon style={styles.largeIcon} />
 
@@ -31,7 +31,7 @@ function Dashboard() {
                     Lets get started!</h4>
                 {/* thing */}
                 {/* <Dashboard /> */}
-                <div className='flex flex-col mt-10 '>
+                <div className='flex flex-col mt-4 '>
                     <div className='flex flex-wrap gap-2 space-between justify-center lg:ml-48 lg:pl-16'>
                         <div className=' border-2  border-violet-200 my-0 w-5/12 rounded-xl p-2 lg:p-4 flex flex-row lg:p-6 '>
                             <div className='mr-4 hidden md:block'>
@@ -39,7 +39,7 @@ function Dashboard() {
                             </div>
                             <div>
                                 <div className='font-bold'>New Workspace</div>
-                                <p className='text-sm lg:text-md'>For individuals or teams to collaborate, communicate, and carry out tasks efficiently. Create reports, dashboards or just get insights.</p>
+                                <p className='text-sm'>For individuals or teams to collaborate, communicate, and carry out tasks efficiently. Create reports, dashboards or just get insights.</p>
                             </div>
                         </div>
 
